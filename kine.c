@@ -20,7 +20,7 @@ bool forward_kine(double* angle, double* x, double* y, double* z)
     *y=r*sin(angle[0]);
 
     return true;
-    return false;
+    // return false;
 }
 
 // 逆向求解定义
@@ -37,6 +37,10 @@ bool back_kine(double* angle, double x, double y, double z)
     int r;
     r=sqrt(x*x + y*y);
 
+    // solve a1-a3
+
+    // Optional input
+
     return true;
-    return false;
+    // return false;
 }
