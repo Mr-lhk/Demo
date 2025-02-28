@@ -27,7 +27,7 @@
 					[
 						0
 					],
-					"name" : "DEMO",
+					"name" : "Demo",
 					"targetIndexes" : 
 					[
 						0
@@ -38,9 +38,9 @@
 			[
 				{
 					"directoryIndex" : 0,
-					"id" : "DEMO::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-DEMO-Debug-772b3061ee347223e21e.json",
-					"name" : "DEMO",
+					"id" : "Demo::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Demo-Debug-32fff840b7a6eb37cc9c.json",
+					"name" : "Demo",
 					"projectIndex" : 0
 				}
 			]

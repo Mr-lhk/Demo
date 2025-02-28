@@ -1,14 +1,14 @@
 [
 {
   "directory": "D:/project/RoboticArmControlProject/Demo/build",
-  "command": "D:\\mingw64\\bin\\gcc.exe -g -o CMakeFiles\\DEMO.dir\\kine.c.obj -c D:\\project\\RoboticArmControlProject\\Demo\\kine.c",
+  "command": "D:\\mingw64\\bin\\gcc.exe -g -o CMakeFiles\\Demo.dir\\kine.c.obj -c D:\\project\\RoboticArmControlProject\\Demo\\kine.c",
   "file": "D:\\project\\RoboticArmControlProject\\Demo\\kine.c",
-  "output": "CMakeFiles\\DEMO.dir\\kine.c.obj"
+  "output": "CMakeFiles\\Demo.dir\\kine.c.obj"
 },
 {
   "directory": "D:/project/RoboticArmControlProject/Demo/build",
-  "command": "D:\\mingw64\\bin\\gcc.exe -g -o CMakeFiles\\DEMO.dir\\main.c.obj -c D:\\project\\RoboticArmControlProject\\Demo\\main.c",
+  "command": "D:\\mingw64\\bin\\gcc.exe -g -o CMakeFiles\\Demo.dir\\main.c.obj -c D:\\project\\RoboticArmControlProject\\Demo\\main.c",
   "file": "D:\\project\\RoboticArmControlProject\\Demo\\main.c",
-  "output": "CMakeFiles\\DEMO.dir\\main.c.obj"
+  "output": "CMakeFiles\\Demo.dir\\main.c.obj"
 }
 ]

@@ -11,7 +11,7 @@
 # =============================================================================
 
 # =============================================================================
-# Project: DEMO
+# Project: Demo
 # Configurations: Debug
 # =============================================================================
 
@@ -41,48 +41,48 @@ include CMakeFiles/rules.ninja
 
 cmake_ninja_workdir = D$:/project/RoboticArmControlProject/Demo/build/
 # =============================================================================
-# Object build statements for EXECUTABLE target DEMO
+# Object build statements for EXECUTABLE target Demo
 
 
 #############################################
-# Order-only phony target for DEMO
+# Order-only phony target for Demo
 
-build cmake_object_order_depends_target_DEMO: phony || CMakeFiles/DEMO.dir
+build cmake_object_order_depends_target_Demo: phony || CMakeFiles/Demo.dir
 
-build CMakeFiles/DEMO.dir/kine.c.obj: C_COMPILER__DEMO_unscanned_Debug D$:/project/RoboticArmControlProject/Demo/kine.c || cmake_object_order_depends_target_DEMO
-  DEP_FILE = CMakeFiles\DEMO.dir\kine.c.obj.d
+build CMakeFiles/Demo.dir/kine.c.obj: C_COMPILER__Demo_unscanned_Debug D$:/project/RoboticArmControlProject/Demo/kine.c || cmake_object_order_depends_target_Demo
+  DEP_FILE = CMakeFiles\Demo.dir\kine.c.obj.d
   FLAGS = -g
-  OBJECT_DIR = CMakeFiles\DEMO.dir
-  OBJECT_FILE_DIR = CMakeFiles\DEMO.dir
-  TARGET_COMPILE_PDB = CMakeFiles\DEMO.dir\
-  TARGET_PDB = DEMO.pdb
+  OBJECT_DIR = CMakeFiles\Demo.dir
+  OBJECT_FILE_DIR = CMakeFiles\Demo.dir
+  TARGET_COMPILE_PDB = CMakeFiles\Demo.dir\
+  TARGET_PDB = Demo.pdb
 
-build CMakeFiles/DEMO.dir/main.c.obj: C_COMPILER__DEMO_unscanned_Debug D$:/project/RoboticArmControlProject/Demo/main.c || cmake_object_order_depends_target_DEMO
-  DEP_FILE = CMakeFiles\DEMO.dir\main.c.obj.d
+build CMakeFiles/Demo.dir/main.c.obj: C_COMPILER__Demo_unscanned_Debug D$:/project/RoboticArmControlProject/Demo/main.c || cmake_object_order_depends_target_Demo
+  DEP_FILE = CMakeFiles\Demo.dir\main.c.obj.d
   FLAGS = -g
-  OBJECT_DIR = CMakeFiles\DEMO.dir
-  OBJECT_FILE_DIR = CMakeFiles\DEMO.dir
-  TARGET_COMPILE_PDB = CMakeFiles\DEMO.dir\
-  TARGET_PDB = DEMO.pdb
+  OBJECT_DIR = CMakeFiles\Demo.dir
+  OBJECT_FILE_DIR = CMakeFiles\Demo.dir
+  TARGET_COMPILE_PDB = CMakeFiles\Demo.dir\
+  TARGET_PDB = Demo.pdb
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target DEMO
+# Link build statements for EXECUTABLE target Demo
 
 
 #############################################
-# Link the executable DEMO.exe
+# Link the executable Demo.exe
 
-build DEMO.exe: C_EXECUTABLE_LINKER__DEMO_Debug CMakeFiles/DEMO.dir/kine.c.obj CMakeFiles/DEMO.dir/main.c.obj
+build Demo.exe: C_EXECUTABLE_LINKER__Demo_Debug CMakeFiles/Demo.dir/kine.c.obj CMakeFiles/Demo.dir/main.c.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\DEMO.dir
+  OBJECT_DIR = CMakeFiles\Demo.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = CMakeFiles\DEMO.dir\
-  TARGET_FILE = DEMO.exe
-  TARGET_IMPLIB = libDEMO.dll.a
-  TARGET_PDB = DEMO.pdb
+  TARGET_COMPILE_PDB = CMakeFiles\Demo.dir\
+  TARGET_FILE = Demo.exe
+  TARGET_IMPLIB = libDemo.dll.a
+  TARGET_PDB = Demo.pdb
 
 
 #############################################
@@ -110,7 +110,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
-build DEMO: phony DEMO.exe
+build Demo: phony Demo.exe
 
 # =============================================================================
 # Folder targets.
@@ -120,7 +120,7 @@ build DEMO: phony DEMO.exe
 #############################################
 # Folder: D:/project/RoboticArmControlProject/Demo/build
 
-build all: phony DEMO.exe
+build all: phony Demo.exe
 
 # =============================================================================
 # Built-in targets

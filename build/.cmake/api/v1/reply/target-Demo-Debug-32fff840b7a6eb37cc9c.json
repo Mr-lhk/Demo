@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "DEMO.exe"
+			"path" : "Demo.exe"
 		},
 		{
-			"path" : "DEMO.pdb"
+			"path" : "Demo.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -49,7 +49,7 @@
 			]
 		}
 	],
-	"id" : "DEMO::@6890427a1f51a3e7e1df",
+	"id" : "Demo::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -69,8 +69,8 @@
 		],
 		"language" : "C"
 	},
-	"name" : "DEMO",
-	"nameOnDisk" : "DEMO.exe",
+	"name" : "Demo",
+	"nameOnDisk" : "Demo.exe",
 	"paths" : 
 	{
 		"build" : ".",

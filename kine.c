@@ -37,6 +37,8 @@ bool back_kine(double* angle, double x, double y, double z)
     int r;
     r=sqrt(x*x + y*y);
 
+    // todo: finish the rest of the code
+
     // solve a1-a3
 
     // Optional input

@@ -499,7 +499,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "C:/Program Files (x86)/DEMO"
+			"value" : "C:/Program Files (x86)/Demo"
 		},
 		{
 			"name" : "CMAKE_LINKER",
@@ -719,7 +719,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "DEMO"
+			"value" : "Demo"
 		},
 		{
 			"name" : "CMAKE_PROJECT_VERSION",
@@ -1158,7 +1158,7 @@
 			"value" : "FALSE"
 		},
 		{
-			"name" : "DEMO_BINARY_DIR",
+			"name" : "Demo_BINARY_DIR",
 			"properties" : 
 			[
 				{
@@ -1170,7 +1170,7 @@
 			"value" : "D:/project/RoboticArmControlProject/Demo/build"
 		},
 		{
-			"name" : "DEMO_IS_TOP_LEVEL",
+			"name" : "Demo_IS_TOP_LEVEL",
 			"properties" : 
 			[
 				{
@@ -1182,7 +1182,7 @@
 			"value" : "ON"
 		},
 		{
-			"name" : "DEMO_SOURCE_DIR",
+			"name" : "Demo_SOURCE_DIR",
 			"properties" : 
 			[
 				{
